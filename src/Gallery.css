@@ -1,7 +1,22 @@
-.imageGallery {
-  display: grid;
-  grid-template-columns: 30vw 30vw 30vw;
-  grid-auto-rows: 30vh;
-  grid-gap: 2vw;
-  list-style: none inside none;
+@media screen and (min-width: 800px) {
+  .imageGallery {
+    display: grid;
+    padding: 0;
+    grid-template-columns: 30vw 30vw 30vw;
+    justify-content: center;
+    grid-auto-rows: 30vh;
+    grid-gap: 2vw;
+    list-style: none inside none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .imageGallery {
+    display: grid;
+    padding: 0;
+    grid-template-columns: 95vw;
+    justify-content: center;
+    grid-gap: 2vw;
+    list-style: none inside none;
+  }
 }
