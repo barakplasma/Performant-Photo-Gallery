@@ -19,11 +19,11 @@ export const GalleryPhoto = props => {
         <picture className="aGalleryPhoto">
           <source
             srcSet={props.imageData.highRes}
-            media="(min-height: 1280px)"
+            media="(min-height: 1280px), (min-width: 1280px)"
           />
           <source
             srcSet={props.imageData.mediumRes}
-            media="(min-height: 320px)"
+            media="(min-height: 640px), (min-width: 640px)"
           />
           <img
             src={props.imageData.lowRes}

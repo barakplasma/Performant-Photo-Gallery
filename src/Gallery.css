@@ -1,10 +1,10 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1280px) {
   .imageGallery {
     display: grid;
     padding: 0;
     grid-template-columns: 30vw 30vw 30vw;
     justify-content: center;
-    grid-auto-rows: 30vh;
+    grid-auto-rows: 50vh;
     grid-gap: 2vw;
     list-style: none inside none;
   }
