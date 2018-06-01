@@ -1,0 +1,8 @@
+.fastImage {
+}
+
+.imageGallery {
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
+  grid-gap: 2vw;
+}
