@@ -23,7 +23,7 @@ export const GalleryPhoto = props => {
           />
           <source
             srcSet={props.imageData.mediumRes}
-            media="(min-height: 640px)"
+            media="(min-height: 320px)"
           />
           <img
             src={props.imageData.lowRes}
