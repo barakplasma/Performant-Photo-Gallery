@@ -1,4 +1,6 @@
 import React from 'react';
+import LazyLoad from 'react-lazyload';
+
 import './GalleryPhoto.css';
 /**
  * Takes image data and converts it to an image tag
@@ -13,18 +15,23 @@ import './GalleryPhoto.css';
 export const GalleryPhoto = props => {
   return (
     <li>
-      <picture>
-        <source srcset={props.imageData.highRes} media="(min-height: 1280px)" />
-        <source
-          srcset={props.imageData.mediumRes}
-          media="(min-height: 640px)"
-        />
-        <img
-          src={props.imageData.lowRes}
-          className="aGalleryPhoto"
-          alt="a dog or a cat"
-        />
-      </picture>
+      <LazyLoad height={300} offset={600} once>
+        <picture className="aGalleryPhoto">
+          <source
+            srcSet={props.imageData.highRes}
+            media="(min-height: 1280px)"
+          />
+          <source
+            srcSet={props.imageData.mediumRes}
+            media="(min-height: 640px)"
+          />
+          <img
+            src={props.imageData.lowRes}
+            className="aGalleryPhoto"
+            alt="a dog or a cat"
+          />
+        </picture>
+      </LazyLoad>
     </li>
   );
 };
