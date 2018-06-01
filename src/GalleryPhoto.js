@@ -15,7 +15,7 @@ import './GalleryPhoto.css';
 export const GalleryPhoto = props => {
   return (
     <li>
-      <LazyLoad height={300} offset={600} once>
+      <LazyLoad height={300} offset={2000} once>
         <picture className="aGalleryPhoto">
           <source
             srcSet={props.imageData.highRes}
