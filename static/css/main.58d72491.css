@@ -1,0 +1,2 @@
+body{margin:0;padding:0;font-family:sans-serif}.App{text-align:center;display:grid}.App-header{background-color:#222;height:5vh;padding:10vh;color:#fff}.App-title{font-size:1.5em}.imageGallery{display:grid;grid-template-columns:30vw 30vw 30vw;grid-auto-rows:30vh;grid-gap:2vw;list-style:none inside none}.aGalleryPhoto{-o-object-fit:contain;object-fit:contain;width:30vw;height:30vh}
+/*# sourceMappingURL=main.58d72491.css.map*/
