@@ -13,11 +13,18 @@ import './GalleryPhoto.css';
 export const GalleryPhoto = props => {
   return (
     <li>
-      <img
-        src={props.imageData.highRes}
-        alt="a dog or a cat"
-        className="aGalleryPhoto"
-      />
+      <picture>
+        <source srcset={props.imageData.highRes} media="(min-height: 1280px)" />
+        <source
+          srcset={props.imageData.mediumRes}
+          media="(min-height: 640px)"
+        />
+        <img
+          src={props.imageData.lowRes}
+          className="aGalleryPhoto"
+          alt="a dog or a cat"
+        />
+      </picture>
     </li>
   );
 };
