@@ -1,0 +1,5 @@
+.aGalleryPhoto {
+  object-fit: contain;
+  width: 30vw;
+  height: 30vh;
+}

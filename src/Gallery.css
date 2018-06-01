@@ -1,8 +1,7 @@
-.fastImage {
-}
-
 .imageGallery {
   display: grid;
   grid-template-columns: 30vw 30vw 30vw;
+  grid-auto-rows: 30vh;
   grid-gap: 2vw;
+  list-style: none inside none;
 }
