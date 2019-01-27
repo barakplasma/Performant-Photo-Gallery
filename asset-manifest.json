@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.69fe6ddc.css",
-  "main.css.map": "static/css/main.69fe6ddc.css.map",
-  "main.js": "static/js/main.113f754b.js",
-  "main.js.map": "static/js/main.113f754b.js.map"
+  "main.css": "/Performant-Photo-Gallery/static/css/main.4552bdf2.chunk.css",
+  "main.js": "/Performant-Photo-Gallery/static/js/main.ed3e89f4.chunk.js",
+  "main.js.map": "/Performant-Photo-Gallery/static/js/main.ed3e89f4.chunk.js.map",
+  "static/js/1.979d47e9.chunk.js": "/Performant-Photo-Gallery/static/js/1.979d47e9.chunk.js",
+  "static/js/1.979d47e9.chunk.js.map": "/Performant-Photo-Gallery/static/js/1.979d47e9.chunk.js.map",
+  "runtime~main.js": "/Performant-Photo-Gallery/static/js/runtime~main.2b461ca6.js",
+  "runtime~main.js.map": "/Performant-Photo-Gallery/static/js/runtime~main.2b461ca6.js.map",
+  "static/css/main.4552bdf2.chunk.css.map": "/Performant-Photo-Gallery/static/css/main.4552bdf2.chunk.css.map",
+  "index.html": "/Performant-Photo-Gallery/index.html",
+  "precache-manifest.98c874c397edf91d53c3ed6a449431e7.js": "/Performant-Photo-Gallery/precache-manifest.98c874c397edf91d53c3ed6a449431e7.js",
+  "service-worker.js": "/Performant-Photo-Gallery/service-worker.js"
 }
