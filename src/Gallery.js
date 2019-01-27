@@ -32,16 +32,16 @@ const imageSchema = {
   definitions: {
     photoUrl: {
       enum: [
-        'https://lorempixel.com/320/240/animals',
-        'https://lorempixel.com/600/480/animals',
-        'https://lorempixel.com/600/600/animals'
+        'https://loremflickr.com/320/240/dog',
+        'https://loremflickr.com/600/480/dog',
+        'https://loremflickr.com/600/600/dog'
       ]
     },
     highResPhotoUrl: {
       enum: [
-        'https://lorempixel.com/1920/1080/animals',
-        'https://lorempixel.com/1024/960/animals',
-        'https://lorempixel.com/800/600/animals'
+        'https://loremflickr.com/1920/1080/dog',
+        'https://loremflickr.com/1024/960/dog',
+        'https://loremflickr.com/800/600/dog'
       ]
     },
     imageDimension: {
