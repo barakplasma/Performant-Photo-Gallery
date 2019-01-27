@@ -4,8 +4,6 @@ import './Gallery.css';
 import { GalleryPhoto } from './GalleryPhoto';
 
 import jsf from 'json-schema-faker';
-import faker from 'faker';
-jsf.extend('faker', () => faker);
 
 const imageSchema = {
   type: 'array',
@@ -33,14 +31,17 @@ const imageSchema = {
   },
   definitions: {
     photoUrl: {
-      type: 'string',
-      faker: 'image.animals'
+      enum: [
+        'https://lorempixel.com/320/240/animals',
+        'https://lorempixel.com/600/480/animals',
+        'https://lorempixel.com/600/600/animals'
+      ]
     },
     highResPhotoUrl: {
       enum: [
-        'http://lorempixel.com/1920/1080/animals',
-        'http://lorempixel.com/1024/960/animals',
-        'http://lorempixel.com/800/600/animals'
+        'https://lorempixel.com/1920/1080/animals',
+        'https://lorempixel.com/1024/960/animals',
+        'https://lorempixel.com/800/600/animals'
       ]
     },
     imageDimension: {
